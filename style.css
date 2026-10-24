@@ -147,3 +147,25 @@ p {
     flex-direction: column;
   }
 }
+
+.sidebar a.highlight {
+  position: relative;
+  color: #e8d5ff;
+  background: #6b21a8;
+  padding: 4px 8px;
+  margin-top: 8px;
+}
+
+.sidebar a.highlight::before {
+  content: "";
+  position: absolute;
+  top: -9px;
+  left: 0;
+  right: 0;
+  border-top: 2px solid #6b21a8;
+}
+
+.sidebar a.highlight:hover {
+  color: #6b21a8;
+  background: #e8d5ff;
+}
