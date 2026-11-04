@@ -147,6 +147,10 @@ p {
     position: static;
     flex-direction: column;
   }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .sidebar a.highlight {
