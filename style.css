@@ -173,6 +173,26 @@ p {
   flex: 1;
 }
 
+.availability {
+  display: inline-block;
+  background: #1a0a2e;
+  border: 2px solid #6b21a8;
+  padding: 6px 12px;
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+
+.availability::before {
+  content: "● ";
+  color: #c084fc;
+}
+
+.see-all {
+  margin-top: 16px;
+  margin-bottom: 0;
+  text-align: right;
+}
+
 .more-projects {
   list-style: none;
   padding: 0;
