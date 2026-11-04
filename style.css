@@ -142,6 +142,7 @@ p {
 
   .sidebar {
     width: 100%;
+    box-sizing: border-box;
     height: auto;
     position: static;
     flex-direction: column;
